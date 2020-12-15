@@ -1,0 +1,51 @@
+{
+  "name": "zao-ts-axios",
+  "version": "0.0.1",
+  "description": "用ts封装的axios",
+  "keywords": [
+    "zao",
+    "ts-axios",
+    "zao-ts-axios",
+    "typesript",
+    "ts",
+    "axios",
+    "typescript-axios"
+  ],
+  "author": {
+    "name": "zao",
+    "email": "1064216064@qq.com",
+    "url": "https://github.com/lyandzao"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyandzao/zao-ts-axios"
+  },
+  "scripts": {
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.0",
+    "@babel/plugin-transform-runtime": "^7.8.0",
+    "@babel/plugin-transform-typescript": "^7.8.0",
+    "@babel/preset-env": "^7.8.2",
+    "@babel/preset-typescript": "^7.8.0",
+    "@types/jest": "^24.0.25",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "terser-webpack-plugin": "^2.3.2",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^9.0.0",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.0",
+    "@types/qs": "^6.9.0",
+    "axios": "^0.19.1"
+  }
+}
